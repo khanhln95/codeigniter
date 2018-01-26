@@ -1,0 +1,199 @@
+@media (min-width: 400px) {
+  #mid-content .list-clothing .img-sp .saler .rate, #mid-content .list-bag .img-sp .saler .rate {
+    display: none;
+  }
+}
+@media (min-width: 471px) {
+  .head1 .phone {
+    width: 40%;
+  }
+  .head1 .account {
+    width: 60%;
+
+  }
+  .head1 .account .menutop {
+    float: right;
+  }
+
+}
+@media (min-width: 606px) {
+  #header-top .head1 .phone {
+    width: 50%;
+  }
+  #header-top .head1 .account {
+    width: 50%;
+  }
+  #header-top .head1 .account .menutop {
+    float: right;
+  }
+  footer #menu-end .foot-menu {
+    display: block;
+  }
+
+  #mid-content .list-clothing .img-sp .saler .rate, #mid-content .list-bag .img-sp .saler .rate, #mid-content .list-bag .img-sp .saler .rate {
+    display: block;
+  }
+  #mid-content .sell .img-sp .saler .rate {
+    display: block;
+  }
+
+}
+@media (min-width: 620px) {
+  #mid-content .list-clothing, #mid-content .list-bag {
+    margin-left: 3%;
+  }
+}
+@media (min-width: 768px) {
+  #head-nav {
+    width: 100%;
+    float: left;
+    display: inline;
+    height: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.62);
+  }
+  #head-nav .navbar-inverse {
+    background: no-repeat;
+  }
+  #head-nav .navbar-inverse ul li:hover {
+    background-color: #212121;
+  }
+  #head-nav .navbar-inverse .head-nav-menu {
+    display: flex;
+    justify-content: center;
+  }
+  #head-nav .dropdown-menu {
+    background: rgba(0, 0, 0, 0.62);
+  }
+  #head-nav .dropdown-menu a:hover {
+    background-color: #212121;
+  }
+  #header-bot {
+    width: 100%;
+    border-top: 1px solid #373737;
+  }
+  #header-bot .ship {
+    border-top: none;
+    border-right: 1px solid #373737;
+  }
+  #header-bot .ship:first-child {
+    border-left: 1px solid #373737;
+  }
+  #mid-content .list-clothing .img-sp:hover .hover, #mid-content .list-bag .img-sp:hover .hover, #mid-content .list-bag .img-sp:hover .hover {
+    display: block;
+    margin-left: 18%;
+    margin-top: 40%;
+  }
+  #mid-content .sell .img-sp .saler .rate {
+    display: block;
+    margin-left: 18%;
+    margin-top: 40%;
+  }
+  #mid-content .col-md-2 {
+    width: 20%;
+  }
+  #mid-content .list-clothing, #mid-content .list-bag {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 992px) {
+  #header-top2 .logo {
+    float: left;
+    text-align: left;
+  }
+  #header-top2 .search {
+    margin-top: 20px;
+  }
+  #header-top2 .head-option {
+    margin-top: 20px;
+  }
+  #header-top2 .head-option .money, #header-top2 .head-option .language {
+    width: 20%;
+  }
+  #header-top2 .head-option .language {
+    width: 40%;
+  }
+  #header-top2 .head-option .sp-cart {
+    width: 40%;
+    border-radius: 0;
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+  #post .mid-shoe, #post .mid-bag, #post .mid-clo {
+    width: 32%;
+    display: block;
+  }
+  #mid-content .list-clothing .img-sp:hover .hover, #mid-content .list-bag .img-sp:hover .hover, #mid-content .list-bag .img-sp:hover .hover {
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+  #mid-content .sell .img-sp .saler .rate {
+    margin-left: 25%;
+    margin-top: 50%;
+  }
+  #mid-content .list-clothing, #mid-content .list-bag {
+    margin-left: 0;
+  }
+  .owl-clothing .owl-nav.disabled, .owl-bestSeller .owl-nav.disabled, .owl-blog .owl-nav.disabled {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -75px;
+  }
+  .owl-bag .owl-nav, .owl-bestSeller .owl-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -65px;
+  }
+  #footer-cont .describe .bot-logo, #footer-cont .references .bot-logo {
+    width: 100%;
+    float: left;
+  }
+  #footer-cont .references .list-refer {
+    display: block;
+  }
+  #footer-cont .references .contact {
+    display: block;
+  }
+  #footer-cont .describe .bot-logo img, #footer-cont .references .bot-logo img {
+    float: left;
+  }
+  #footer-cont .references .custom p {
+    text-align: left;
+  }
+
+  footer #subscribe {
+    float: left;
+  }
+  footer #subscribe .sign-up {
+    margin-top: 35px;
+    float: left;
+  }
+  footer #subscribe .sign-up .newslletter {
+    width: 70%;
+    float: left;
+    margin-right: 5px;
+  }
+  footer #subscribe .sign-up .sign {
+    float: left;
+    margin-top: 0;
+  }
+  footer #subscribe .follow .list-follow {
+    float: right;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #mid-content .list-clothing .img-sp:hover .hover, #mid-content .list-bag .img-sp:hover .hover, #mid-content .list-bag .img-sp:hover .hover {
+    margin-left: 25%;
+    margin-top: 50%;
+  }
+  #mid-content .sell .img-sp .saler .rate {
+    margin-left: 25%;
+    margin-top: 50%;
+  }
+
+}

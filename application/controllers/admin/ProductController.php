@@ -34,6 +34,7 @@ class ProductController extends Admin_Controller {
         }
         else {
             $this->data['id_product'] = "";
+            $this -> data['list_group'] = $this->products_model->getData();
             $this->render('admin/products/create');
         }
     }
@@ -82,11 +83,15 @@ public function index() {
     $this -> render('admin/products/list');
 }
 public function display($id=NULL){
+    $this->data['button_title'] = 'Add';
+    $this->data['id_product'] = $id;
    $this->data['result'] = $this->products_model->display($id); 
    $this->load->view('admin/products/layout', $this->data);
 }
 
-
+public function show(){
+    $this->load->view('admin/products/layout');
+}
 
 }
 ?>
